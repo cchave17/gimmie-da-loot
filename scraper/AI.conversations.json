@@ -1,0 +1,381 @@
+[{
+  "_id": {
+    "$oid": "66ba3a6140b5fc735941ab8a"
+  },
+  "partyId": 45834944,
+  "messages": [
+    {
+      "id": {
+        "$oid": "66ba3a6140b5fc735941ab8b"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:37:53.876Z"
+      },
+      "role": "system",
+      "content": "Basic User Information: {\n  \"partyId\": 45834944,\n  \"memberId\": 114457299,\n  \"homeClub\": \"172\",\n  \"homeClubName\": \"Target Center (Minneapolis)\",\n  \"todaysDate\": \"2024-08-12T11:37:53.860Z\",\n  \"todaysWeekday\": \"Monday\",\n  \"firstName\": \"Nahnsu\",\n  \"lastName\": \"Dawkins\",\n  \"associatedMembers\": [\n    {\n      \"partyId\": 45411823,\n      \"memberId\": 114457291,\n      \"firstName\": \"Carlos\",\n      \"lastName\": \"Chavez\"\n    }\n  ],\n  \"longitude\": -93.2786204,\n  \"latitude\": 44.9685482\n}"
+    },
+    {
+      "id": {
+        "$oid": "66ba3ab840b5fc735941ab8e"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:39:20.461Z"
+      },
+      "role": "user",
+      "content": "Hey Laic what's the next class I could take"
+    },
+    {
+      "id": {
+        "$oid": "66ba3abfe7979bf7030017e7"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:39:27.170Z"
+      },
+      "role": "assistant",
+      "content": "Hi Nahnsu! 😊 Could you please let me know which type of class you're interested in? Here are a few options to choose from: Yoga, Zumba, Strength Training. Let me know so I can help you find the perfect class! 💪🧘‍♂️🕺",
+      "references": [
+        {
+          "label": "View Class Schedules",
+          "link": "lifetime-member://classes",
+          "linkType": "deeplink",
+          "type": "basic"
+        }
+      ],
+      "path": "scheduling"
+    },
+    {
+      "id": {
+        "$oid": "66ba3b17e7979bf7030017eb"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:40:55.641Z"
+      },
+      "role": "user",
+      "content": "Tag:nahnsu"
+    },
+    {
+      "id": {
+        "$oid": "66ba3b1d5755dc082b6ba658"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:41:01.924Z"
+      },
+      "role": "assistant",
+      "content": "Hi Nahnsu! 😊 Which type of class are you interested in today? We have a variety of options like Yoga, Zumba, and Strength Training. Let me know so I can help you find the perfect class at the Target Center (Minneapolis)! 💪🧘‍♂️🕺",
+      "path": "general"
+    },
+    {
+      "id": {
+        "$oid": "66ba3bc95755dc082b6ba659"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:43:53.749Z"
+      },
+      "role": "user",
+      "content": "When's the next intense class? Something like HIIT or fight conditioning"
+    },
+    {
+      "id": {
+        "$oid": "66ba3bce5755dc082b6ba65a"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:43:58.381Z"
+      },
+      "role": "assistant",
+      "content": "Hi Nahnsu! 😊 Could you please specify if you'd like to take a HIIT class or a fight conditioning class? We also have other intense options like Alpha and Cardio. Let me know so I can help you find the perfect class! 💪🔥",
+      "references": [
+        {
+          "label": "View Class Schedules",
+          "link": "lifetime-member://classes",
+          "linkType": "deeplink",
+          "type": "basic"
+        }
+      ],
+      "path": "scheduling"
+    },
+    {
+      "id": {
+        "$oid": "66ba3c8e40b5fc735941ab92"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:47:10.924Z"
+      },
+      "role": "user",
+      "content": "What's the discover pilates like?"
+    },
+    {
+      "id": {
+        "$oid": "66ba3c9140b5fc735941ab93"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:47:13.328Z"
+      },
+      "role": "assistant",
+      "content": "Pilates is a great way to improve your core and flexibility! I'm currently expanding my knowledge on it, but I can still help you get started.",
+      "references": [
+        {
+          "label": "Visit Pilates",
+          "link": "lifetime-member://authoredcontent?viewtype=pilates_landing_page",
+          "linkType": "deeplink",
+          "type": "basic"
+        }
+      ],
+      "path": "pilates"
+    },
+    {
+      "id": {
+        "$oid": "66ba3d1e40b5fc735941ab96"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:49:34.549Z"
+      },
+      "role": "user",
+      "content": "The class, Discover Pilates - is it one on one, big class? Describe it to me"
+    },
+    {
+      "id": {
+        "$oid": "66ba3d2040b5fc735941ab97"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:49:36.975Z"
+      },
+      "role": "assistant",
+      "content": "Pilates is a great way to improve your core and flexibility! I'm currently expanding my knowledge on it, but I can still help you get started.",
+      "references": [
+        {
+          "label": "Visit Pilates",
+          "link": "lifetime-member://authoredcontent?viewtype=pilates_landing_page",
+          "linkType": "deeplink",
+          "type": "basic"
+        }
+      ],
+      "path": "pilates"
+    },
+    {
+      "id": {
+        "$oid": "66ba3d29e7979bf7030017ec"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:49:45.390Z"
+      },
+      "role": "user",
+      "content": "Tag:nahnsu"
+    },
+    {
+      "id": {
+        "$oid": "66ba3d2f5755dc082b6ba65d"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:49:51.684Z"
+      },
+      "role": "assistant",
+      "content": "The Discover Pilates class at Life Time is designed to introduce you to the fundamentals of Pilates in a supportive and engaging environment. Typically, these classes are small to ensure personalized attention from the instructor, allowing you to get the most out of each session. It's a fantastic way to improve your core strength, flexibility, and overall body awareness.\n\nSpeaking of Life Time, have you had a chance to explore any other classes or amenities at the Target Center (Minneapolis) location? There's so much to enjoy!",
+      "path": "general"
+    },
+    {
+      "id": {
+        "$oid": "66ba3d6740b5fc735941ab9a"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:50:47.484Z"
+      },
+      "role": "user",
+      "content": "I'm considering taking the next discover pilates class, but I'm not sure if I'll like it - tell me about the format of the class."
+    },
+    {
+      "id": {
+        "$oid": "66ba3d6a40b5fc735941ab9b"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:50:50.573Z"
+      },
+      "role": "assistant",
+      "content": "Pilates is a great way to improve your core and flexibility! I'm currently expanding my knowledge on it, but I can still help you get started.",
+      "references": [
+        {
+          "label": "Visit Pilates",
+          "link": "lifetime-member://authoredcontent?viewtype=pilates_landing_page",
+          "linkType": "deeplink",
+          "type": "basic"
+        }
+      ],
+      "path": "pilates"
+    },
+    {
+      "id": {
+        "$oid": "66ba3dbb40b5fc735941ab9c"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:52:11.802Z"
+      },
+      "role": "user",
+      "content": "Schedule me for the next discover pilates class"
+    },
+    {
+      "id": {
+        "$oid": "66ba3dd0e7979bf7030017ef"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:52:32.151Z"
+      },
+      "role": "assistant",
+      "content": "The next Discover Pilates class at the Target Center (Minneapolis) is scheduled for today, August 12th, at 1:00 PM. The class is not waitlisted, and you can register for it. The instructor is Lacey H. 😊\n\nHere are the details:\n- **Class Name:** Discover Pilates\n- **Time:** 1:00 PM - 1:30 PM\n- **Location:** Pilates Studio Reformer 1 – 5, Target Center (Minneapolis)\n- **Instructor:** Lacey H.\n- **Waitlisted:** No\n\nI can only provide a single day of class schedules at a time. Please note: access to specific classes is dependent on your membership type.",
+      "references": [
+        {
+          "label": "Book Discover Pilates, 2024-08-12 @1:00 PM",
+          "link": "lifetime-member://scheduledetail?classid=ZXhlcnA6MTcyYm9vazI4MjQ2MjoyMDI0LTA4LTEy",
+          "linkType": "deeplink",
+          "type": "basic"
+        }
+      ],
+      "path": "scheduling"
+    },
+    {
+      "id": {
+        "$oid": "66ba3de2e7979bf7030017f2"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:52:50.536Z"
+      },
+      "role": "user",
+      "content": "How big is that class?"
+    },
+    {
+      "id": {
+        "$oid": "66ba3df45755dc082b6ba660"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:53:08.454Z"
+      },
+      "role": "assistant",
+      "content": "The Discover Pilates class is a smaller, more intimate class held in the Pilates Studio Reformer 1 – 5, which suggests it accommodates up to 5 participants. This setting allows for more personalized attention from the instructor. 😊\n\nPlease note: access to specific classes is dependent on your membership type. To view the complete list of classes at your club, check the \"Classes\" tab.",
+      "references": [
+        {
+          "label": "View Class Schedules",
+          "link": "lifetime-member://classes",
+          "linkType": "deeplink",
+          "type": "basic"
+        }
+      ],
+      "path": "locations"
+    },
+    {
+      "id": {
+        "$oid": "66ba3e0a5755dc082b6ba661"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:53:30.468Z"
+      },
+      "role": "user",
+      "content": "What do I need to prepare for that class?"
+    },
+    {
+      "id": {
+        "$oid": "66ba3e13e7979bf7030017f3"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:53:39.393Z"
+      },
+      "role": "assistant",
+      "content": "For the Discover Pilates class, you should bring a towel and a water bottle. 😊\n\nPlease note: access to specific classes is dependent on your membership type. To view the complete list of classes at your club, check the \"Classes\" tab.",
+      "references": [
+        {
+          "label": "View Class Schedules",
+          "link": "lifetime-member://classes",
+          "linkType": "deeplink",
+          "type": "basic"
+        }
+      ],
+      "path": "locations"
+    },
+    {
+      "id": {
+        "$oid": "66ba3e1f5755dc082b6ba662"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:53:51.909Z"
+      },
+      "role": "user",
+      "content": "Can i use the towels at the life time?"
+    },
+    {
+      "id": {
+        "$oid": "66ba3e2740b5fc735941ab9d"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:53:59.151Z"
+      },
+      "role": "assistant",
+      "content": "I'm sorry, I'm still learning and I am unable to answer this question at this time. I currently do not fully support questions relating to relative geographies. I am much better at answering questions about specfic Life Time Fitness clubs. Is there anything else I can help you with?",
+      "path": "locations"
+    },
+    {
+      "id": {
+        "$oid": "66ba3ea240b5fc735941ab9e"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:56:02.836Z"
+      },
+      "role": "user",
+      "content": "What kind of work out outfit is appropriate for pilates?"
+    },
+    {
+      "id": {
+        "$oid": "66ba3ea540b5fc735941ab9f"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:56:05.663Z"
+      },
+      "role": "assistant",
+      "content": "Pilates is a great way to improve your core and flexibility! I'm currently expanding my knowledge on it, but I can still help you get started.",
+      "references": [
+        {
+          "label": "Visit Pilates",
+          "link": "lifetime-member://authoredcontent?viewtype=pilates_landing_page",
+          "linkType": "deeplink",
+          "type": "basic"
+        }
+      ],
+      "path": "pilates"
+    },
+    {
+      "id": {
+        "$oid": "66ba3eca40b5fc735941aba0"
+      },
+      "createdAt": {
+        "$date": "2024-08-12T16:56:42.866Z"
+      },
+      "role": "user",
+      "content": "What should I wear to a pilates class? Yoga pants, sweatpants, or shorts?"
+    },
+    {
+      "role": "assistant",
+      "content": "Pilates is a great way to improve your core and flexibility! I'm currently expanding my knowledge on it, but I can still help you get started.",
+      "references": [
+        {"label": "Visit Pilates","link": "lifetime-member://authoredcontent?viewtype=pilates_landing_page","linkType": "deeplink","type": "basic"}
+      ],
+      "path": "pilates"
+    },
+    {
+      "role": "user",
+      "content": "Tag:carlos"
+    },
+    {
+      "role": "assistant",
+      "content": "For a Pilates class, it's best to wear something comfortable and stretchy that allows for a full range of motion. Yoga pants or leggings are a popular choice because they fit snugly and won't get in the way during your exercises. A fitted top is also a good idea to ensure your instructor can see your form and alignment. Avoid overly loose clothing that could get caught in the equipment or hinder your movements.\n\nSpeaking of Pilates, did you know that Life Time offers a variety of Pilates classes? You can enjoy both mat and reformer Pilates sessions with our expert instructors. Have you tried any of our Pilates classes at the Target Center (Minneapolis) location?",
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-08-12T16:37:53.876Z"
+  },
+  "customData": {
+    "version": "34",
+    "model": "SM-S901U1",
+    "appVersion": "6.1.0 (1430)",
+    "clubId": 172,
+    "clubName": "Target Center (Minneapolis)",
+    "ip": "10.0.0.18",
+    "latitude": 44.9685482,
+    "longitude": -93.2786204
+  }
+}]
